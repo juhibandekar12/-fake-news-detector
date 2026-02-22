@@ -1,0 +1,18 @@
+# Virtual environment
+fvenv/
+
+# Model files (too large for GitHub)
+model/
+*.h5
+*.pkl
+
+# Dataset (too large for GitHub ~186MB total)
+dataset/
+
+# Cache
+__pycache__/
+*.pyc
+.env
+
+# Experiments
+experiments/

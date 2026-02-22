@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+tensorflow==2.15.0
+transformers
+torch
+accelerate
+sentencepiece
+nltk 
+wordcloud
+transformers==4.35.0
+tensorflow==2.15.0
+huggingface_hub
+streamlit
