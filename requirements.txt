@@ -14,5 +14,5 @@ wordcloud
 transformers==4.35.0
 tensorflow==2.15.0
 huggingface_hub
-streamlit
+streamlit==1.28.2
 altair==4.2.2

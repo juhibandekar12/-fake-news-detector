@@ -17,7 +17,7 @@ model, tokenizer = get_model()
 
 st.title("📰 Fake News Detector")
 st.write("Powered by BERT — Enter a news article to check if it's real or fake.")
-st.divider()
+st.markdown("---")  # ← replace st.divider()
 
 news_input = st.text_area(
     "Paste your news article here:",
@@ -32,7 +32,7 @@ if st.button("🔍 Analyze", use_container_width=True):
         with st.spinner("Analyzing article..."):
             result = predict(news_input, model, tokenizer)
 
-        st.divider()
+        st.markdown("---")  # ← replace st.divider()
 
         if result['label'] == 'FAKE':
             st.error("🚨 FAKE NEWS")
